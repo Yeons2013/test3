@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduce</title>
+</head>
+
+
+
+<body>
+  <h1> HSY을 소개합니다. </h1>
+
+  <img src="my pic.jpg" alt="" width="500px">
+  <h3>나를 소개합니다.</h3>
+  <p> 나는 국민대학교를 졸업해서 <br>
+  현재 AI를 공부하고 있는 학생입니다.</p>
+
+
+  <p> 나에 대한 정보입니다.</p>
+  <ui>
+    <li>이름 : <span class="answer">황성연</span></li>
+    <li>취미 : <span class="answer2">영화감상</span></li>
+    <li>MBTI : <span class="answer3">ISFP</span></li>
+  </ui>
+
+  <script>
+    var text = document.querySelectorAll("span");
+
+
+    for (let i = 0 ; i < text.length ; i++ ) {
+      text[i].onclick = function() {
+        text[i].style.color = 'blue' ;
+      }
+    }
+    
+    // var text = document.querySelector(".answer");
+    // var text2 = document.querySelector(".answer2");
+    // var text3 = document.querySelector(".answer3");
+    // text.onclick = function() {
+    //   text.style.color = 'blue';
+    // }
+    // text2.onclick = function() {
+    //   text2.style.color = 'blue';
+    // }
+    // text3.onclick = function() {
+    //   text3.style.color = 'blue';
+    // }
+  </script>
+
+</body>
+</html>
